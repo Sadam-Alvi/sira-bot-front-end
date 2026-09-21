@@ -350,13 +350,16 @@
 
     <div class="chatbot">
 
-        <iframe
-            allow="microphone;"
-            src="https://console.dialogflow.com/api-client/demo/embedded/19815ea5-5d3f-46b8-9145-9eed202cd3a2">
-        </iframe>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
-    </div>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="Sira-chatbot-for-food-delivery"
+        agent-id="19815ea5-5d3f-46b8-9145-9eed202cd3a2"
+        language-code="en">
+    </df-messenger>
 
+</div>
 
 </body>
 
